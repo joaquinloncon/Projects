@@ -5,5 +5,4 @@ A collection of some of my data science projects.
 
 ## What to expect?
 
-* Projects with focus on predictions with Machine Learning algorithms 
-* a basic and very simple data analysis.
+Reports in PDF format with codechunks that show the process to achieve the objectives of the projects.
