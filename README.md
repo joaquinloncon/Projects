@@ -5,4 +5,4 @@ A collection of some of my data science projects.
 
 ## What to expect?
 
-Projects with focus on predictions with Machine Learning, and a too basic data analysis
+Projects with focus on predictions with Machine Learning algorithms and a very simple data analysis.
