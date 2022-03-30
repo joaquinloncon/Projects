@@ -1,6 +1,6 @@
 # Projects
 
-A collection of some of my data science projects.
+A collection of some of my data science projects with focus on Machine Learning.
 
 ## What to expect?
 
