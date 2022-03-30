@@ -1,4 +1,4 @@
 # Projects
 Portfolio/Projects
 
-A collection of my data science projects.
+A collection of some of my data science projects.
