@@ -314,34 +314,9 @@ fit_meta_model <- train(Churn ~ .,
 
 hat_meta_model<- predict(fit_meta_model, newdata = meta_model_test)
 
+fit_meta_model$bestTune
 #test set y meta model test set tienen la misma Y, es lo mismo cual ponerlo acá
 confusionMatrix(data = hat_meta_model, reference = test_set$Churn)
 
 
-fit_meta_model$bestTune
-# Confusion Matrix and Statistics
 
-# Reference
-# Prediction Churn No_churn
-# Churn       79       35
-# No_churn    17      535
-# 
-# Accuracy : 0.9219          
-# 95% CI : (0.8989, 0.9411)
-# No Information Rate : 0.8559          
-# P-Value [Acc > NIR] : 1.18e-07        
-# 
-# Kappa : 0.7064          
-# 
-# Mcnemar's Test P-Value : 0.0184          
-#                                           
-#             Sensitivity : 0.8229          
-#             Specificity : 0.9386          
-#          Pos Pred Value : 0.6930          
-#          Neg Pred Value : 0.9692          
-#              Prevalence : 0.1441          
-#          Detection Rate : 0.1186          
-#    Detection Prevalence : 0.1712          
-#       Balanced Accuracy : 0.8808          
-#                                           
-#        'Positive' Class : Churn      
