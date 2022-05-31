@@ -1,4 +1,3 @@
-#Churn prediction
 ###########                       Preparación                        ########### 
 # Librerias
 if(!require(readr)) install.packages("readr", repos = "http://cran.us.r-project.org")
