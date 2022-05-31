@@ -28,9 +28,10 @@ library(gbm)
 library(pamr)
 library(tidyverse)
 
-
-churn.bigml.80 <- read.csv("C:/Users/Usuario/Desktop/Joaquin/Data Science/Proyects/Churn Prediction/churn-bigml-80.csv")
-churn.bigml.20 <- read.csv("C:/Users/Usuario/Desktop/Joaquin/Data Science/Proyects/Churn Prediction/churn-bigml-20.csv")
+# Data en Kaggle
+# https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
+churn.bigml.80 <- read.csv("../churn-bigml-80.csv")
+churn.bigml.20 <- read.csv("../churn-bigml-20.csv")
 
 dataset <- rbind(churn.bigml.80,churn.bigml.20)
 rm(churn.bigml.80,churn.bigml.20)
